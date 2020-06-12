@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:background="@drawable/box_coorners_set"
+    android:layout_marginBottom="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:id="@+id/day"
+                    android:textSize="25dp"
+                    android:textColor="@color/day"/>
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/icon"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:layout_marginLeft="20dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="4"
+                            android:id="@+id/tempmax"
+                            android:textSize="18dp"
+                            android:textColor="@color/day"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="4"
+                            android:id="@+id/tempmin"
+                            android:textSize="14dp"
+                            android:textColor="@color/day"
+                            android:layout_below="@id/tempmax"/>
+                </RelativeLayout>
+
+        </LinearLayout>
+
+
+
+
+</LinearLayout>

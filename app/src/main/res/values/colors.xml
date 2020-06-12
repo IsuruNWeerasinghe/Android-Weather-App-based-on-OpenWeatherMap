@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="day">#ffffff</color>
+    <color name="txt">#abf234</color>
+    <color name="status">#0000AC</color>
+    <color name="settings">#ff0000</color>
+    <color name="outline">#A55014</color>
+    <color name="bg1">#3366cc</color>
+    <color name="bg2">#EE000033</color>
+    <color name="menubar">#0099ff</color>
+    <color name="viewbar">#0033ff</color>
+    <color name="viewbar2">#00bbff</color>
+    <color name="blur">#43ffffff</color>
+    <color name="blurgraph">#22ffffff</color>
+    <color name="green">#00dd00</color>
+    <color name="yellow">#ffff00</color>
+    <color name="red">#dd0000</color>
+    <color name="blue">#0000dd</color>
+</resources>
